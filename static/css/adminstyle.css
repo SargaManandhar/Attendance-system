@@ -1,0 +1,38 @@
+#header {
+    background: #6d6d6d;
+    color: #f5dd5d;
+}
+body{
+
+font-size: 14px;
+font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+color: var(--body-fg);
+background: #dddddd;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    
+    text-align: left;
+    background:#70bf2b;
+    color: var(--header-link-color);
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #447e9b;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #dddddd;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    transition: background 0.15s;
+}

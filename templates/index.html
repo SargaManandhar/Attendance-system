@@ -1,0 +1,30 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>Attendence Management System</title>
+  </head>
+  
+  <body>
+  
+ 
+
+  <h1>Attendence Management System</h1>
+  <div class="login">
+   <h6>Please Login To Continue</h6>
+    <a href="{% url 'admin'%}" >Admin</a>
+    <a href="{% url 'teacher'%}" >Teacher</a>
+    <a href="{% url 'dashboard'%}" >Student</a>
+  </div>
+  
+ </body>
+   
+</html>
